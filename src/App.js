@@ -6,7 +6,7 @@ const fs = window.require("fs");
 const { app } = window.require("@electron/remote");
 
 function App() {
-  console.log("test");
+  console.log("test2");
   const [path, setPath] = useState(app.getAppPath());
 
   const files = fs.readdirSync(path);
